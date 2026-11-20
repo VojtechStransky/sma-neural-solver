@@ -4,7 +4,7 @@ A material model for the shape-memory alloy NiTi solves a small non-smooth optim
 step. The reference solver (Nelder–Mead) needs about 0.26 s per step, has no optimality check and no convergence
 theory for this problem. A finite-element simulation calls it $10^5$ to $10^8$ times.
 
-This repository documents the search for a replacement that is **fast and comes with a reason to trust it**:
+This repository documents the search for a replacement that is **fast and verifiably accurate**:
 first neural networks that imitate the solver, then a proximal-gradient solver that uses the structure of the
 problem. It records what was tried, what was measured, and what turned out to be wrong.
 

@@ -19,7 +19,7 @@ call it less often. This step replaces the optimization method itself.
 ## Motivation
 
 The reference solver minimizes the energy with the Nelder–Mead (downhill simplex) method. It is slow (about 650
-energy evaluations per step on the one-dimensional model), and it gives no reason to trust a single answer: it
+energy evaluations per step on the one-dimensional model), and nothing checks whether a single answer is right: it
 runs a fixed budget, has no optimality test, and has no convergence theory for an objective with kinks. A
 finite-element simulation needs both speed and a step that does not fail.
 

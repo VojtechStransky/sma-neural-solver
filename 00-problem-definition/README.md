@@ -6,7 +6,7 @@ A constitutive model of the shape-memory alloy NiTi computes, at every load step
 material by minimizing an energy. The objective is non-smooth, and the reference implementation solves it with
 the Nelder–Mead method. That costs about 0.26 s per step, and the method has no optimality check and no
 convergence theory for this problem. A finite-element simulation needs $10^5$ to $10^8$ such steps and cannot
-tolerate a wrong one. The goal is a replacement that is **much faster and comes with a reason to trust it**.
+tolerate a wrong one. The goal is a replacement that is **much faster and verifiably accurate**.
 
 ```math
 (\xi,\ \varepsilon^{\mathrm{tr}})_{n+1} \;=\; \arg\min_{\xi,\ \varepsilon^{\mathrm{tr}}}\
