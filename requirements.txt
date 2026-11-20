@@ -1,0 +1,5 @@
+numpy
+matplotlib
+onnxruntime   # scoring the saved networks (steps 01-02)
+tensorflow    # training scripts of steps 01 and 02
+tf2onnx       # ONNX export after training

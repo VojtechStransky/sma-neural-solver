@@ -1,0 +1,9 @@
+1. max of four lines against the two-branch formula, 6000 points: 8.9e-16
+2. optimality certificate, euclidean metric: 0 failures of 20000
+2. optimality certificate, diagonal  metric: 0 failures of 20000
+2. optimality certificate, full      metric: 0 failures of 20000
+   closed form against direct minimization, 300 cases: largest relative excess 6.9e-14
+3. hold test mismatches: 0 of 20000; increments not given by a face formula: 0
+   cases per face: {'corner': 10398, 'hold': 1275, 'left edge': 3161, 'right edge': 2975, 'top or bottom edge': 2191}
+4. Jacobian against finite differences (largest difference, cases): {'inside': '0.0e+00 (193)', 'edge': '2.7e-07 (1148)', 'corner': '3.2e-08 (1659)'}
+   gradient with respect to a corner, d(d)/d(c_i) = -t I: largest difference 3.7e-10 (2018 cases)

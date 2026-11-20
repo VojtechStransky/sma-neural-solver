@@ -1,0 +1,63 @@
+{
+ "source": "runs/RUN_LOG.md, section 4 of the original study",
+ "grid_occupancy": [
+  {
+   "grid": "6^5",
+   "occupied": 398,
+   "cells": 7776
+  },
+  {
+   "grid": "8^5",
+   "occupied": 1101,
+   "cells": 32768
+  },
+  {
+   "grid": "10^5",
+   "occupied": 1956,
+   "cells": 100000
+  }
+ ],
+ "cells_vs_rows_8pow5": [
+  [
+   500,
+   319
+  ],
+  [
+   1000,
+   475
+  ],
+  [
+   2000,
+   660
+  ],
+  [
+   5000,
+   877
+  ],
+  [
+   10000,
+   983
+  ],
+  [
+   20000,
+   1049
+  ],
+  [
+   61845,
+   1101
+  ]
+ ],
+ "nearest_neighbour_distance": {
+  "random_states_median": 0.0544,
+  "random_states_p95": 0.251,
+  "harvested_median": 0.1813,
+  "harvested_flagged_by_p95_gate": 0.327,
+  "harvested_flagged_by_box": 0.0
+ },
+ "harvest": {
+  "rows": 32730,
+  "oracle_calls": 91001,
+  "share_of_new_cells": 0.122,
+  "share_at_zero_strain": 0.62
+ }
+}

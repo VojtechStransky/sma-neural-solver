@@ -1,0 +1,23 @@
+{
+ "xi": {
+  "correct_hold": 36282,
+  "correct_compute": 40842,
+  "needless_compute": 682,
+  "missed_change": 679,
+  "accuracy": 0.9826591068357011,
+  "rows": 78485
+ },
+ "eps_tr": {
+  "correct_hold": 9264,
+  "correct_compute": 67220,
+  "needless_compute": 881,
+  "missed_change": 1120,
+  "accuracy": 0.974504682423393,
+  "rows": 78485
+ },
+ "thresholds": {
+  "xi": 0.00014285714285714287,
+  "eps_tr": 5e-06
+ },
+ "both_right": 0.9597884946168057
+}

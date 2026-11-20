@@ -1,0 +1,24 @@
+{
+ "source": "runs/RUN_LOG.md section 3 of the original study: random novelty-driven walk, network C32",
+ "rounds": [
+  {
+   "round": 1,
+   "rows": 49476,
+   "holdout_ksi_mae": 0.003471
+  },
+  {
+   "round": 2,
+   "rows": 51029,
+   "holdout_ksi_mae": 0.004651
+  },
+  {
+   "round": 3,
+   "rows": 52551,
+   "holdout_ksi_mae": 0.004909
+  }
+ ],
+ "cycles": 47,
+ "rows_harvested": 3526,
+ "oracle_calls": 40802,
+ "distinct_cells_per_200_step_episode": 25
+}

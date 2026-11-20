@@ -1,0 +1,75 @@
+{
+ "cold_cycles": {
+  "cycles": 34,
+  "flat_steps_percent": 67.39765040939837,
+  "one_step_error_on_flat_steps_mean_signed": 6.580177432624623e-05,
+  "one_step_error_on_flat_steps_mean_abs": 0.0007310414803214371,
+  "one_step_error_on_moving_steps_mean_abs": 0.00173085811547935,
+  "free_run_error_located_on_flat_steps_percent": 86.978609912505
+ },
+ "worst_cycles_by_free_run_error_of_xi": [
+  161,
+  201,
+  213
+ ],
+ "examples": {
+  "101": {
+   "cycle": 101,
+   "loading_temperature": -30.0,
+   "one_step_xi": 0.000938531884457916,
+   "free_run_xi": 0.024663131572306155,
+   "one_step_etr": 0.00021041237050667405,
+   "free_run_etr": 0.000926747636208991,
+   "ratio_xi": 26.278416301808715,
+   "ratio_etr": 4.404435128872785
+  },
+  "160": {
+   "cycle": 160,
+   "loading_temperature": -50.0,
+   "one_step_xi": 0.000623570813331753,
+   "free_run_xi": 0.021367449911568706,
+   "one_step_etr": 0.00013613427290692925,
+   "free_run_etr": 0.00209676340477352,
+   "ratio_xi": 34.26627650739767,
+   "ratio_etr": 15.402171400342452
+  },
+  "161": {
+   "cycle": 161,
+   "loading_temperature": -35.0,
+   "one_step_xi": 0.00065421819454059,
+   "free_run_xi": 0.05050862801755652,
+   "one_step_etr": 0.00015032576629891992,
+   "free_run_etr": 0.0018723420870301276,
+   "ratio_xi": 77.20456025076628,
+   "ratio_etr": 12.455230617664114
+  },
+  "201": {
+   "cycle": 201,
+   "loading_temperature": 0.0,
+   "one_step_xi": 0.002065817127004266,
+   "free_run_xi": 0.0484641445914238,
+   "one_step_etr": 0.00025080249179154634,
+   "free_run_etr": 0.0032518064228989453,
+   "ratio_xi": 23.460036204513337,
+   "ratio_etr": 12.965606520375696
+  },
+  "213": {
+   "cycle": 213,
+   "loading_temperature": -35.0,
+   "one_step_xi": 0.0008557499386370182,
+   "free_run_xi": 0.03330696935664459,
+   "one_step_etr": 0.0002651234099175781,
+   "free_run_etr": 0.0014341710482894136,
+   "ratio_xi": 38.92138094651075,
+   "ratio_etr": 5.409447052356752
+  }
+ },
+ "median_ratio_xi_all_cycles": 3.562361036228695,
+ "median_ratio_etr_all_cycles": 3.6638311014935514,
+ "mean_over_cycles": {
+  "one_step_xi": 0.0009217102809343487,
+  "free_run_xi": 0.006093797731548467,
+  "one_step_etr": 0.0001368248264916474,
+  "free_run_etr": 0.0006306572781127772
+ }
+}

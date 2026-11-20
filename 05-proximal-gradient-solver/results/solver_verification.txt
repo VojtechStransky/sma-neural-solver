@@ -1,0 +1,39 @@
+A. 2602 steps along 60 loading paths
+   regimes: {'R0 hold': 287, 'R1 reorientation, xi held': 609, 'R2 forward with reorientation': 1180, 'R3 reverse with reorientation': 446, 'forward transformation, q held': 38, 'R4 reverse transformation, etr held': 42}
+  Newton step (newton)
+      iterations median 4, p99 8, max 14 (not converged in 200: 0); energy evaluations median 5, max 47
+      energy above brute force: max 2.1e-14 MPa (0 steps above 1e-9); below it: max 3.6e-09 (1 steps)
+      |stress - brute force|: p99 1.4e-05, max 2.2e-02 MPa (0 steps above 0.1 MPa); |xi - brute force| max 5.8e-06
+  steps for xi and etr (steps_xi_etr)
+      iterations median 13, p99 184, max 212 (not converged in 2000: 0); energy evaluations median 20, max 245
+      energy above brute force: max 2.5e-14 MPa (0 steps above 1e-9); below it: max 3.6e-09 (1 steps)
+      |stress - brute force|: p99 1.4e-05, max 2.2e-02 MPa (0 steps above 0.1 MPa); |xi - brute force| max 5.8e-06
+  steps for xi and q (steps_xi_q)
+      iterations median 26, p99 2000, max 2000 (not converged in 2000: 526); energy evaluations median 41, max 2010
+      energy above brute force: max 2.4e-01 MPa (463 steps above 1e-9); below it: max 1.8e-15 (0 steps)
+      |stress - brute force|: p99 3.5e+01, max 1.8e+02 MPa (405 steps above 0.1 MPa); |xi - brute force| max 4.5e-02
+  one common step (one_step)
+      iterations median 2000, p99 2000, max 2000 (not converged in 2000: 1546); energy evaluations median 2001, max 2008
+      energy above brute force: max 7.1e+00 MPa (1531 steps above 1e-9); below it: max 2.7e-15 (0 steps)
+      |stress - brute force|: p99 2.4e+02, max 3.6e+02 MPa (1508 steps above 0.1 MPa); |xi - brute force| max 8.4e-01
+  curvature of f at the solutions [MPa]: along xi 12 to 7.25e+05, along q 5.56e+04 to 3.31e+08; condition number of the Hessian up to 1.42e+06
+  coupling rho of the two step directions, steps for xi and q: median 0.59, max 0.9998, above 0.99 in 24 % of the steps; condition number left after the scaling up to 1.21e+04
+  coupling rho of the two step directions, steps for xi and etr: median 0.21, max 0.8780, above 0.99 in 0 % of the steps; condition number left after the scaling up to 15.4
+
+B. 1000 random states with large load jumps
+  Newton step (newton)
+      iterations median 8, p99 17, max 20 (not converged in 200: 0); energy evaluations median 12, max 51
+      energy above brute force: max 1.4e-14 MPa (0 steps above 1e-9); below it: max 3.8e-03 (2 steps)
+      |stress - brute force|: p99 1.3e-05, max 2.6e-01 MPa (1 steps above 0.1 MPa); |xi - brute force| max 1.6e-02
+  steps for xi and etr (steps_xi_etr)
+      iterations median 22, p99 205, max 232 (not converged in 2000: 0); energy evaluations median 31, max 260
+      energy above brute force: max 1.6e-14 MPa (0 steps above 1e-9); below it: max 3.8e-03 (2 steps)
+      |stress - brute force|: p99 1.4e-05, max 2.6e-01 MPa (1 steps above 0.1 MPa); |xi - brute force| max 1.6e-02
+  steps for xi and q (steps_xi_q)
+      iterations median 27, p99 2000, max 2000 (not converged in 2000: 131); energy evaluations median 40, max 2020
+      energy above brute force: max 1.9e-01 MPa (98 steps above 1e-9); below it: max 3.8e-03 (2 steps)
+      |stress - brute force|: p99 6.4e+01, max 1.5e+02 MPa (87 steps above 0.1 MPa); |xi - brute force| max 4.1e-02
+  one common step (one_step)
+      iterations median 2000, p99 2000, max 2000 (not converged in 2000: 805); energy evaluations median 2001, max 2009
+      energy above brute force: max 1.0e+01 MPa (781 steps above 1e-9); below it: max 8.9e-16 (0 steps)
+      |stress - brute force|: p99 4.2e+02, max 6.2e+02 MPa (760 steps above 0.1 MPa); |xi - brute force| max 8.6e-01
