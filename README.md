@@ -1,4 +1,4 @@
-# A faster solver for a material model, and what it took to trust it
+# A faster and more reliable solver for a shape-memory alloy material model
 
 A material model for the shape-memory alloy NiTi solves a small non-smooth optimization problem at every load
 step. The reference solver (Nelder–Mead) needs about 0.26 s per step, has no optimality check and no convergence
